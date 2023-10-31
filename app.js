@@ -14,12 +14,13 @@ const checkOnlineHours = (req, res, next) => {
     }
 };
 
-app.use(checkOnlineHours);
+app.use(checkOnlineHours);  //middleware initialized. . .
 
-app.use(express.static('public'));
+app.use(express.static('public')); //we load our html files from here
 
+//routing
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/views/home.html');
+    res.sendFile(__dirname + '/views/home.html'); 
 });
 
 app.get('/services', (req, res) => {
