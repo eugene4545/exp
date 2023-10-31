@@ -14,7 +14,7 @@ const checkOnlineHours = (req, res, next) => {
     }
 };
 
-// app.use(checkOnlineHours);
+app.use(checkOnlineHours);
 
 app.use(express.static('public'));
 

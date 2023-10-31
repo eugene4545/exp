@@ -19,8 +19,16 @@ nav a {
     
 }
 
+nav a:hover{
+    color: red;
+}
+
 h1{
     color: #fff;
+}
+
+.heading{
+    color: green;
 }
 
 /* at styling */
@@ -53,7 +61,7 @@ main.right-col{
 }
 
 .right-col{
-    color: #fff;
+    color: green;
     position: relative;
 }
 
@@ -61,19 +69,69 @@ main.right-col{
     position: absolute;
     color: white;
    font-size: 30px;
-   border: 5px solid white;
+   /* border: 5px solid white; */
    border-radius: 100px;
    width: 200px;
    text-decoration: none;
    text-align: center;
    padding: 22px;
-   margin-left: 200px;
+   margin-left: 110px;
    margin-top: 22px;
    background: transparent;
 }
 .main-cta:hover{
     border: 5px solid white;
-    background: green;
-    transition: 1.5s;
+    background: #fff;
+    transition: 0.5s;
     color: rgb(1, 12, 128);
+}
+
+/* services */
+
+.footer-sec>*{
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 14px;
+    
+}
+
+
+
+#footer-video{
+    width: 100%;
+    height: 60vh;
+} 
+
+.card-details{
+    background: white;
+    height: 50%;
+    box-shadow: rgb(217, 216, 216);
+    
+
+}
+
+
+ .product-title{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(1, 12, 128);
+}
+
+
+/* icons */
+.icons{
+    font-size: 80px;
+    padding: 12px;
+    width: 100px;
+    text-align: center;
+    color: #ffff;
+    width: 400px;
+    margin-left: 250px;
+    padding-left: 200px;
+
+}
+
+.icons>*{
+    padding: 4px;
+    cursor: pointer;
 }
