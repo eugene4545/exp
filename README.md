@@ -1,3 +1,2 @@
 # express routing 
-To run the app:
-install neccessary dependencies ( 'npm install', 'node app.js') .
+To install the neccessary dependencies and run the app: ( 'npm install', 'node app.js') .
