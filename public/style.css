@@ -2,15 +2,78 @@
 body {
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 600;
+    background: #000;
 }
 
 nav {
     background-color: #333;
     color: #fff;
+    display: flex;
+    justify-content: flex-end; 
 }
 
 nav a {
     text-decoration: none;
     color: #fff;
     margin: 10px;
+    
+}
+
+h1{
+    color: #fff;
+}
+
+/* at styling */
+#hero-video{
+    padding-left: 30px;
+    height: 350px;
+
+}
+
+main{
+    display: flex !important;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 8em;
+
+}
+
+
+
+main.left-col{
+    width: 800px;
+    float: left;
+
+}
+
+main.right-col{
+    width: 600px;
+    float: right;
+ 
+}
+
+.right-col{
+    color: #fff;
+    position: relative;
+}
+
+.main-cta{
+    position: absolute;
+    color: white;
+   font-size: 30px;
+   border: 5px solid white;
+   border-radius: 100px;
+   width: 200px;
+   text-decoration: none;
+   text-align: center;
+   padding: 22px;
+   margin-left: 200px;
+   margin-top: 22px;
+   background: transparent;
+}
+.main-cta:hover{
+    border: 5px solid white;
+    background: green;
+    transition: 1.5s;
+    color: rgb(1, 12, 128);
 }

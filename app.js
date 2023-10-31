@@ -10,11 +10,11 @@ const checkOnlineHours = (req, res, next) => {
     if (day >= 1 && day <= 5 && hour >= 9 && hour < 17) {
         next();
     } else {
-        res.status(403).send('This site is only available during working hours (Mon-Fri, 9-17).Please Check back on us');
+        res.status(403).send('\u{1F634}.This site is only available during working hours (Mon-Fri, 9-17).Please Check back on us.');
     }
 };
 
-app.use(checkOnlineHours);
+// app.use(checkOnlineHours);
 
 app.use(express.static('public'));
 
