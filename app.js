@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
-// Custom middleware to check if it's a working day and time
+// Custom middleware to check if it's a working day and time (off hours sets off 404 response with accompanying message)
 const checkOnlineHours = (req, res, next) => {
     const now = new Date();
     const day = now.getDay();
