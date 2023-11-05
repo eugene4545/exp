@@ -10,7 +10,9 @@ const checkOnlineHours = (req, res, next) => {
     if (day >= 1 && day <= 5 && hour >= 9 && hour < 17) {
         next();
     } else {   //message to be sent if site visited at downtime hours
-        res.status(403).send('\u{1F634}.This site is only available during working hours (Mon-Fri, 9-17).Please Check back on us.');
+        res.status(403).send('<div style="display: flex; flex-direction: column; align-items: center; text-align: center; font-family: Roboto, sans-serif;"><h1 style="font-size: 2em;">\u{1F634} \u{1F634} \u{1F634}</h1><h1>This site is only available during working hours (Mon-Fri, 9-17). Please check back on us.</h1></div>');
+
+
     }
 };
 
