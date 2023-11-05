@@ -61,7 +61,7 @@ main.right-col{
 }
 
 .right-col{
-    color: green;
+    color: whitesmoke;
     position: relative;
 }
 
@@ -83,7 +83,7 @@ main.right-col{
     border: 5px solid white;
     background: #fff;
     transition: 0.5s;
-    color: rgb(1, 12, 128);
+    color: green;
 }
 
 /* services */
