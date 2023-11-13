@@ -28,8 +28,12 @@ h1{
     color: #fff;
 }
 
+.homepage{
+    text-align: center;
+    margin-bottom: 80px
+}
 .heading{
-    color: green;
+    color: white;
 }
 
 /* at styling */
@@ -76,15 +80,15 @@ main.right-col{
    text-decoration: none;
    text-align: center;
    padding: 22px;
-   margin-left: 110px;
+   margin-left: 180px;
    margin-top: 22px;
    background: transparent;
 }
 .main-cta:hover{
-    border: 5px solid white;
-    background: #fff;
-    transition: 0.5s;
-    color: green;
+    border: 5px solid red;
+    background: red;
+    transition: 0.3s;
+    color: white;
 }
 
 /* services */
